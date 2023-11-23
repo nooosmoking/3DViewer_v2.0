@@ -1,0 +1,76 @@
+QMainWindow{
+    background-color: black;
+}
+
+QWidget{
+    background-color: black;
+    color: rgb(44, 205, 68);
+}
+
+ QDoubleSpinBox {
+    border: 2px solid rgb(44, 205, 68); 
+    color: rgb(44, 205, 68);
+    background-color: black;
+    font-family: 'Copperplate', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+QDoubleSpinBox:hover {
+    color: rgb(211, 244, 211);
+    border: 2px solid rgb(211, 244, 211); 
+}
+
+QDoubleSpinBox:focus {
+    color: black;
+    border: 2px solid rgb(44, 205, 68); 
+    background-color: rgb(44, 205, 68);
+}
+
+QLabel {
+    color: rgb(44, 205, 68);
+    font-family: 'Copperplate', 'Arial Narrow', Arial, sans-serif;
+}
+
+QSlider {
+    color: rgb(44, 205, 68);
+    background: transparent;
+    border: 2px solid rgb(44, 205, 68);
+}
+
+QSlider::groove:horizontal {
+    background: rgb(44, 205, 68);
+    border: 2px solid black;
+
+}
+
+QSlider::handle:horizontal {
+    background: rgb(44, 205, 68);
+    width: 1px;
+}
+
+QSlider::add-page:horizontal {
+    background: black;
+}
+
+QSlider:hover {
+    color: rgb(211, 244, 211);
+    border: 2px solid rgb(211, 244, 211);
+}
+
+QPushButton {
+    border: 2px solid rgb(44, 205, 68); 
+    color: rgb(44, 205, 68);
+    background-color: black;
+    font-family: 'Copperplate', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(44, 205, 68);
+    border: 2px solid rgb(211, 244, 211);
+    color: black; 
+}
+
+#widget_3d {
+    background-color: Transparent;
+}
